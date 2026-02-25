@@ -144,7 +144,7 @@ $(".home-section-carousel").owlCarousel({
 
 $(".room-section-carousel").owlCarousel({
   rewind: true,
-  margin: 40,
+  margin: 10,
   nav: true,
   dots: false,
   navText: [
@@ -153,14 +153,14 @@ $(".room-section-carousel").owlCarousel({
   ],
   responsive: {
     0: {
-      items: 1.25,
+      items: 1.15,
     },
     768: {
-      items: 2.25,
+      items: 2.15,
       margin: 10,
     },
     1000: {
-      items: 3.25,
+      items: 3.15,
     },
   },
 });
